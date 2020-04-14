@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
 
 
 
@@ -25,20 +24,20 @@ body {
   font-size: 3.52rem;
 }
 .display-4 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.4rem;
   font-display: swap;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 2.56rem;
+  font-size: 2.24rem;
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-display: swap;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.4rem;
+  font-size: 1.76rem;
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
@@ -65,14 +64,14 @@ body {
     line-height: calc( 1.4 * (1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 1.28rem;
-    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.12rem;
+    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.2rem;
-    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.88rem;
+    font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -713,12 +712,12 @@ section.lazy-placeholder:after {
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
-  background: #333333;
+  background: #55b4d4;
   transition: none;
   min-height: 77px;
 }
 .cid-qTkzRZLJNu .navbar-dropdown.bg-color.transparent.opened {
-  background: #333333;
+  background: #55b4d4;
 }
 .cid-qTkzRZLJNu a {
   font-style: normal;
@@ -802,7 +801,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-qTkzRZLJNu .dropdown .dropdown-menu {
-  background: #333333;
+  background: #55b4d4;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1098,7 +1097,7 @@ section.lazy-placeholder:after {
 }
 .cid-qTkzRZLJNu .nav-link:hover,
 .cid-qTkzRZLJNu .dropdown-item:hover {
-  color: #c1c1c1 !important;
+  color: #ffffff !important;
 }
 .cid-rW4OzhJcKG {
   background-image: url("../../../assets/images/8-ideas-para-promocionar-tu-empresa-de-servicio-tecnico-1200x880.jpeg");
@@ -1109,7 +1108,8 @@ section.lazy-placeholder:after {
 .cid-rW4OJkRcBb {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/960networking-960x678.jpg");
+  background-color: #0ca9df;
+  background: linear-gradient(45deg, #0ca9df, #7a9d9f);
 }
 .cid-rW4OJkRcBb .media-container-row {
   flex-direction: row-reverse;
@@ -1175,7 +1175,9 @@ section.lazy-placeholder:after {
   transition: box-shadow 0.3s;
 }
 .cid-rW5W77V3Uf {
-  background-image: url("../../../assets/images/como-hacer-networking-705x367.jpg");
+  padding-top: 75px;
+  padding-bottom: 90px;
+  background-color: #0f7699;
 }
 .cid-rW5W77V3Uf .icons-media-container {
   display: flex;
@@ -1202,6 +1204,10 @@ section.lazy-placeholder:after {
 }
 .cid-rW5W77V3Uf H1 {
   text-align: center;
+}
+.cid-rW5W77V3Uf .mbr-text,
+.cid-rW5W77V3Uf .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-rW6clN963w {
   padding-top: 90px;
@@ -1483,11 +1489,11 @@ section.lazy-placeholder:after {
 .cid-rW9tIYqHBK {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #2e2e2e;
+  background-color: #0f7699;
 }
 .cid-rW9tIYqHBK .line {
-  background-color: #ffffff;
-  color: #ffffff;
+  background-color: #7a9d9f;
+  color: #7a9d9f;
   align: center;
   height: 2px;
   margin: 0 auto;
@@ -1575,72 +1581,10 @@ section.lazy-placeholder:after {
     padding-left: 30px;
   }
 }
-.cid-rW9vz6Vc1I {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-rW9vz6Vc1I .socicon-bg-facebook {
-  background: #3e5b98;
-  color: #ffffff;
-}
-.cid-rW9vz6Vc1I .socicon-bg-twitter {
-  background: #4da7de;
-  color: #ffffff;
-}
-.cid-rW9vz6Vc1I .socicon-bg-googleplus {
-  background: #dd4b39;
-  color: #ffffff;
-}
-.cid-rW9vz6Vc1I .socicon-bg-vkontakte {
-  background: #5a7fa6;
-  color: #ffffff;
-}
-.cid-rW9vz6Vc1I .socicon-bg-odnoklassniki {
-  background: #f48420;
-  color: #ffffff;
-}
-.cid-rW9vz6Vc1I .socicon-bg-pinterest {
-  background: #c92619;
-  color: #ffffff;
-}
-.cid-rW9vz6Vc1I .socicon-bg-mail {
-  background: #134785;
-  color: #ffffff;
-}
-.cid-rW9vz6Vc1I .btn-social {
-  font-size: 20px;
-  border-radius: 50%;
-  padding: 0;
-  width: 44px;
-  height: 44px;
-  line-height: 44px;
-  text-align: center;
-  position: relative;
-  cursor: pointer;
-  border: none !important;
-}
-.cid-rW9vz6Vc1I .btn-social i {
-  top: 0;
-  line-height: 44px;
-  width: 44px;
-}
-.cid-rW9vz6Vc1I .btn-social + .btn {
-  margin-left: .1rem;
-}
-.cid-rW9vz6Vc1I [class^="socicon-"]:before,
-.cid-rW9vz6Vc1I [class*=" socicon-"]:before {
-  line-height: 44px;
-}
-@media (max-width: 767px) {
-  .cid-rW9vz6Vc1I .btn {
-    font-size: 20px !important;
-  }
-}
 .cid-rWaIIXMgEm {
-  padding-top: 45px;
+  padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #747373;
+  background-color: #0f7699;
 }
 .cid-rWaIIXMgEm .row-links {
   width: 100%;
